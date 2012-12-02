@@ -187,7 +187,6 @@ echo "Dependencies installed" | indent
 # copy open cv libs to build dir
 mkdir -p $BUILD_DIR/lib
 cp -a "$VENDORED_OPENCV/lib/." "$BUILD_DIR/lib/"
-export LD_LIBRARY_PATH="$BUILD_DIR/lib:$LD_LIBRARY_PATH"
 
 echo "-----> Building runtime environment"
 mkdir -p $BUILD_DIR/.profile.d
