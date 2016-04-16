@@ -143,7 +143,7 @@ CACHE_TARGET_DIR="$BUILD_DIR/node_modules"
 NODE_PACKAGE="http://${S3_BUCKET}.s3.amazonaws.com/nodejs-${NODE_VERSION}.tgz"
 NPM_PACKAGE="http://${S3_BUCKET}.s3.amazonaws.com/npm-${NPM_VERSION}.tgz"
 SCONS_PACKAGE="http://${S3_BUCKET}.s3.amazonaws.com/scons-${SCONS_VERSION}.tgz"
-OPENCV_PACKAGE="https://s3.amazonaws.com/bloominga-public/heroku/vulcan-compiled-opencv.tgz"
+OPENCV_PACKAGE="https://s3.amazonaws.com/tznode/vulcan-compiled-opencv.tgz"
 
 # vendor directories
 VENDORED_NODE="$(mktmpdir node)"
